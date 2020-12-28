@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*
+Theme Name: Lookslike
+Theme URI: https://lookslike.pl
+Author: LOOKSLIKE.PL SP ZOO
+Author URI: https://lookslike.pl
+Requires at least: 5.1
+Requires PHP: 7.+
+Version: 1.1
+License: © All rights reserved
+License URI: https://lookslike.pl
+Text Domain: lookslike
+ */
+
+@media(max-width:980px) {
+  .error404 header .errorContent {height: 80vh; overflow: hidden;}
+}
+@media(max-width:768px) {
+  .error404 header .errorContent .bigErr {font-size: 100px;}
+  .error404 header .errorContent .errorInfo {font-size: 15px;text-align: center;}
+  .error404 header .errorContent {height: 80vh; overflow: hidden;}
+}
+.error404 header .errorContent .errorInfo {
+width: 100%;max-width: 480px;margin: 0 auto;text-align: center;
+}

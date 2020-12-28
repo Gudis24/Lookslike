@@ -1,1 +1,2 @@
-Lookslike
+# lookslikeWPtheme
+Theme lookslike for WordPress

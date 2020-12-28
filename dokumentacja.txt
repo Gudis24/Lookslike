@@ -1,0 +1,54 @@
+## glup pakiety ##
+
+gulp-postcss
+https://github.com/postcss/gulp-postcss
+gulp-autoprefixer
+https://www.npmjs.com/package/gulp-autoprefixer
+gulp-clean-css
+https://www.npmjs.com/package/gulp-clean-css
+gulp-if
+https://www.npmjs.com/package/gulp-if
+gulp-sourcemaps
+https://www.npmjs.com/package/gulp-sourcemaps - to na później do mapowania
+gulp-postcss
+https://github.com/postcss/gulp-postcss
+gulp-sass
+https://www.npmjs.com/package/gulp-sass
+browser-sync
+https://browsersync.io/docs/gulp
+gulp-zip
+https://www.npmjs.com/package/gulp-zip
+gulp-replace
+https://www.npmjs.com/package/gulp-replace
+gulp-wp-pot
+https://www.npmjs.com/package/gulp-wp-pot
+
+
+jquery dodajemy przez import $ from 'jquery' przyklad dla functions
+wp_enqueue_script( 'lookslike-scripts', get_template_directory_uri() . '/dist/js/bundle.js', array('jquery'), '1.0.0', true );
+
+
+
+## GIT ##
+
+…or create a new repository on the command line
+
+echo "# lookslikeWPtheme" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/exL24/lookslikeWPtheme.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/exL24/lookslikeWPtheme.git
+git push -u origin master
+
+git add ( dodawanie plikow do wyslania )
+
+#### SHORTCUT ####
+
+git add . && git commit -m "nazwa commita"
+git remote add origin https://github.com/exL24/lookslikeWPtheme.git
+git push -u origin master ( tu idzie akurat na master ale mozesz branche porobic poczytaj)
